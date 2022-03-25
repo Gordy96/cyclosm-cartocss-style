@@ -194,7 +194,7 @@ Layer:
     file: dem/shade.vrt
   geometry: raster
   properties:
-    status: off
+    status: on
 - id: contours100
   class: contours
   <<: *extents
@@ -212,7 +212,7 @@ Layer:
   geometry: line
   properties:
     minzoom: 11
-    status: off
+    status: on
 - id: contours50
   class: contours
   <<: *extents
@@ -230,7 +230,7 @@ Layer:
   geometry: line
   properties:
     minzoom: 11
-    status: off
+    status: on
 - id: contours20
   class: contours
   <<: *extents
@@ -248,7 +248,7 @@ Layer:
   geometry: line
   properties:
     minzoom: 12
-    status: off
+    status: on
 - id: contours10
   class: contours
   <<: *extents
@@ -266,7 +266,7 @@ Layer:
   geometry: line
   properties:
     minzoom: 13
-    status: off
+    status: on
 - id: waterway_low
   <<: *extents
   Datasource:
