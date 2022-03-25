@@ -230,19 +230,19 @@
 #hillshade[zoom>1] {
   raster-scaling: bilinear;
   raster-comp-op: multiply;
-  raster-opacity: 0.85;
+  raster-opacity: 0.45;
 
   [zoom >= 5] {
-    raster-opacity: 0.65;
+    raster-opacity: 0.35;
   }
   [zoom >= 7] {
-    raster-opacity: 0.55;
+    raster-opacity: 0.25;
   }
   [zoom >= 14] {
-    raster-opacity: 0.45;
+    raster-opacity: 0.15;
   }
   [zoom >= 16] {
-    raster-opacity: 0.35;
+    raster-opacity: 0.05;
   }
 }
 
