@@ -30,6 +30,7 @@ _parts:
   osm2pgsql: &osm2pgsql
     type: "postgis"
     host: "{{pg_host}}"
+    port: "{{pg_port}}"
     user: "{{pg_user}}"
     password: "{{pg_password}}"
     dbname: "{{pg_dbname}}"
